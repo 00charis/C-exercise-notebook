@@ -1,5 +1,5 @@
 DataTable
-(Refer to the example on this page)
+(Refer to the example on this page: https://www.dotnetperls.com/datatable)
 
 DataTable is just like table in Database.
 
@@ -10,3 +10,5 @@ Points in this example
 2. add row to DataTable
 3. output certain field/column of a row
 4. iterate the DataTable
+5. take look at the structure of DataTable in DataTable Visualizer
+
