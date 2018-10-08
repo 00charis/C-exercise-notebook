@@ -21,7 +21,19 @@ After you set the TableLayoutPanel Dock property to Fill, the panel fills the en
 
 Choose the **triangle button** to display the control's task list, as shown in the following picture.
 - Step 5: Add Controls to Your Form
+
+Choose the Dock in parent container link. This automatically sets the PictureBox Dock property to Fill.(Understand the meaning of Dock here.)
+
+Then dock the FlowLayoutPanel in the TableLayoutPanel (either by choosing Dock in parent container on the FlowLayoutPanel's black triangle task list, or by setting the FlowLayoutPanel's Dock property to Fill).
+
+A FlowLayoutPanel is a container that arranges other controls in neat rows in order. When you resize a FlowLayoutPanel, if it has room to lay out all of its controls in a single row, it does that. Otherwise, it arranges them in lines, one on top of the other. 
 - Step 6: Name Your Button Controls
+
+Double-click the Show a picture button on the form. As an alternative, choose the Show a picture button on the form, and then choose the Enter key. When you do, the IDE opens an additional tab in the main window called Form1.cs. This tab shows the code file behind the form.
+
+At design-time, when you open the code file for a control in a form, code is generated for the control if it doesn't already exist. (It is when you open code file, code will be generated.)
+
+The five methods that you added are called event handlers, because your program calls them whenever an event (like a user choosing a button or selecting a box) happens.
 - Step 7: Add Dialog Components to Your Form
 - Step 8: Write Code for the Show a Picture Button Event Handler
 - Step 9: Review, Comment, and Test Your Code
