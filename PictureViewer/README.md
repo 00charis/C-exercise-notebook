@@ -4,6 +4,9 @@
 This is a step by step tutorial.
 
 - Step 1: Create a Windows Forms Application Project
+
+If any of these windows are missing, restore the default window layout by, on the menu bar, choosing Window > Reset Window Layout.
+
 - Step 2: Run Your Program
 - Step 3: Set Your Form Properties
 - Step 4: Lay Out Your Form with a TableLayoutPanel Control
