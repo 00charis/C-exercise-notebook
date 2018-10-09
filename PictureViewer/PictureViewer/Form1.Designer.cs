@@ -36,6 +36,8 @@
             this.clearButton = new System.Windows.Forms.Button();
             this.backgroudButton = new System.Windows.Forms.Button();
             this.closeButton = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
@@ -99,10 +101,10 @@
             this.showButton.Location = new System.Drawing.Point(355, 3);
             this.showButton.Name = "showButton";
             this.showButton.Size = new System.Drawing.Size(88, 23);
-            this.showButton.TabIndex = 0;
+            this.showButton.TabIndex = 4;
             this.showButton.Text = "Show a picture";
             this.showButton.UseVisualStyleBackColor = true;
-            this.showButton.Click += new System.EventHandler(this.button1_Click);
+            this.showButton.Click += new System.EventHandler(this.showButton_Click);
             // 
             // clearButton
             // 
@@ -137,6 +139,13 @@
             this.closeButton.UseVisualStyleBackColor = true;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.Filter = "JPEG Files (*.jpg)|*.jpg|PNG Files (*.png)|*.png|BMP Files (*.bmp)|*.bmp|All file" +
+    "s (*.*)|*.*";
+            this.openFileDialog1.Title = "Select a picture file";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -160,10 +169,12 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Button showButton;
         private System.Windows.Forms.Button clearButton;
         private System.Windows.Forms.Button backgroudButton;
         private System.Windows.Forms.Button closeButton;
+        private System.Windows.Forms.Button showButton;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.ColorDialog colorDialog1;
     }
 }
 
