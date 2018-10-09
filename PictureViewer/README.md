@@ -35,6 +35,10 @@ At design-time, when you open the code file for a control in a form, code is gen
 
 The five methods that you added are called event handlers, because your program calls them whenever an event (like a user choosing a button or selecting a box) happens.
 - Step 7: Add Dialog Components to Your Form
+
+But unlike a **control**, adding a **component** to your form doesn't add a visible item that the user can see on the form. Instead, it provides certain behaviors that you can trigger with code.
+
+Also, notice how the Title and Filter properties are bold in the Properties window. The IDE does that to show you any properties that have been changed from their default values.
 - Step 8: Write Code for the Show a Picture Button Event Handler
 - Step 9: Review, Comment, and Test Your Code
 - Step 10: Write Code for Additional Buttons and a Check Box
