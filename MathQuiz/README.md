@@ -12,6 +12,10 @@ The second statement sets the Enabled property of the startButton control to Fal
 - Step 3: Add a Countdown Timer
 
 Because the interval value is milliseconds, a value of 1000 causes the Tick event to fire every second.
+
+The code editor appears and displays the method for the Tick event handler that you just added.
+
+end here: Based on what you added
 - Step 4: Add the CheckTheAnswer() Method
 - Step 5: Add Enter Event Handlers for the NumericUpDown Controls
 - Step 6: Add a Subtraction Problem
