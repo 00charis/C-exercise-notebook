@@ -4,6 +4,8 @@
 This is a step by step tutorial.
 
 - Step 1: Create a Project and Add Labels to Your Form
+
+Set the **AutoSize** property to True, which causes the button to automatically resize to fit the text.
 - Step 2: Create a Random Addition Problem
 - Step 3: Add a Countdown Timer
 - Step 4: Add the CheckTheAnswer() Method
