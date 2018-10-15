@@ -7,6 +7,8 @@ This is a step by step tutorial.
 
 Set the **AutoSize** property to True, which causes the button to automatically resize to fit the text.
 - Step 2: Create a Random Addition Problem
+
+The second statement sets the Enabled property of the startButton control to False so that the quiz taker can't choose the button during a quiz.
 - Step 3: Add a Countdown Timer
 - Step 4: Add the CheckTheAnswer() Method
 - Step 5: Add Enter Event Handlers for the NumericUpDown Controls
