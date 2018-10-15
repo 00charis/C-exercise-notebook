@@ -10,6 +10,8 @@ Set the **AutoSize** property to True, which causes the button to automatically 
 
 The second statement sets the Enabled property of the startButton control to False so that the quiz taker can't choose the button during a quiz.
 - Step 3: Add a Countdown Timer
+
+Because the interval value is milliseconds, a value of 1000 causes the Tick event to fire every second.
 - Step 4: Add the CheckTheAnswer() Method
 - Step 5: Add Enter Event Handlers for the NumericUpDown Controls
 - Step 6: Add a Subtraction Problem
