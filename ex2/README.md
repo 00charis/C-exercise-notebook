@@ -16,5 +16,11 @@ The `group` clause enables you to group your results based on a key that you spe
 
 custQuery is an IEnumerable<IGrouping<string, Customer>>. When you iterate over a query that produces a sequence of groups, you must use a nested `foreach` loop. The outer loop iterates over each group, and the inner loop iterates over each group's members.
 ## Data Transformations with LINQ (C#)
+(https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/data-transformations-with-linq)
 
+To create elements that contain more than one property from the source element, you can use an object initializer with either a named object or an anonymous type.
+
+LINQ queries make it easy to transform data between in-memory data structures, SQL databases, ADO.NET Datasets and XML streams or documents. 
+## Type Relationships in LINQ Query Operations (C#)
+(https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/type-relationships-in-linq-query-operations)
 
