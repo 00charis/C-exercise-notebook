@@ -32,7 +32,7 @@ Queries that do not Transform the Source Data
  
  Queries that Transform the Source Data
 1. The type argument of the data source is always the type of the range variable in the query.
-2. Because the `select` statement produces an anonymous type, the query variable must be implicitly typed by using `var`.
-3. Because the type of the query variable is implicit, the iteration variable in the foreach loop must also be implicit.
+2. Because the `select` statement produces an anonymous type, the query variable _must_ be implicitly typed by using `var`.
+3. Because the type of the query variable is implicit, the iteration variable in the foreach loop _must_ also be implicit.
  
  
