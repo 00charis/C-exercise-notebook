@@ -41,9 +41,12 @@ Queries that do not Transform the Source Data
 
 `Where(num => num % 2 == 0)` This inline expression is called a *lambda expression*. It is a convenient way to write code that would otherwise have to be written in more cumbersome form as an anonymous method or a generic delegate or an expression tree. In C# `=>` is the lambda operator, which is read as "goes to". The num on the left of the operator is the input variable which corresponds to num in the query expression. The compiler can infer the type of num because it knows that numbers is a generic `IEnumerable<T>` type. The body of the lambda is just the same as the expression in query syntax or in any other C# expression or statement; it can include method calls and other complex logic. The "return value" is just the expression result.
 
-In the previous code example, note that the `OrderBy` method is invoked by using the dot operator on the call to `Where`. `Where` produces a filtered sequence, and then `Orderby` operates on that sequence by sorting it. Because queries return an `IEnumerable`, you compose them in method syntax by chaining the method calls together. This is what the compiler does behind the scenes when you write queries by using query syntax. And because a query variable does not store(I think it should be store here). the results of the query, you can modify it or use it as the basis for a new query at any time, even after it has been executed.
+In the previous code example, note that the `OrderBy` method is invoked by using the dot operator on the call to `Where`. `Where` produces a filtered sequence, and then `Orderby` operates on that sequence by sorting it. Because queries return an `IEnumerable`, you compose them in method syntax by chaining the method calls together. This is what the compiler does behind the scenes when you write queries by using query syntax. And because a query variable does not store(I think it should be store here?). the results of the query, you can modify it or use it as the basis for a new query at any time, even after it has been executed.
 
+## C# Features That Support LINQ
+(https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/features-that-support-linq)
 
+Variables declared as `var` are just as strongly-typed as variables whose type you specify explicitly. The use of var makes it possible to create anonymous types, but it(indicate what?) can be used only for local variables. 
 
 
 
