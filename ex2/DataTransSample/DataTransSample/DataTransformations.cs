@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataTransSample
 {
-    class Program
+    class DataTransformations
     {
         class Student
         {
@@ -86,6 +86,8 @@ namespace DataTransSample
 
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
+
+
         }
     }
 }
