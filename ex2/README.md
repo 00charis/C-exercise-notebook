@@ -8,3 +8,4 @@ LINQ query variables are typed as IEnumerable<T> or a derived type such as IQuer
 If you prefer, you can avoid generic syntax by using the var keyword. The var keyword instructs the compiler to infer the type of a query variable by looking at the data source specified in the from clause. When you use IEnumerable<T> or var to declare LINQ query variables, compiled code are the same.
 ## Basic LINQ Query Operations (C#)
 (https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/basic-linq-query-operations)
+ The from clause comes first in order to introduce the data source (customers) and the *range variable* (cust)
