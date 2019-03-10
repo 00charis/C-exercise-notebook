@@ -25,3 +25,14 @@ LINQ queries make it easy to transform data between in-memory data structures, S
 ## Type Relationships in LINQ Query Operations (C#)
 (https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/type-relationships-in-linq-query-operations)
 
+Queries that do not Transform the Source Data
+1. The type argument of the data source determines the type of the range variable.
+2. The type of the object that is selected determines the type of the query variable. Here `name` is a string. Therefore, the query variable is an `IEnumerable<string>`.
+ 3. The query variable is iterated over in the `foreach` statement. Because the query variable is a sequence of strings, the iteration variable is also a string.
+ 
+ Queries that Transform the Source Data
+1. The type argument of the data source is always the type of the range variable in the query.
+2. Because the `select` statement produces an anonymous type, the query variable must be implicitly typed by using `var`.
+3. Because the type of the query variable is implicit, the iteration variable in the foreach loop must also be implicit.
+ 
+ 
