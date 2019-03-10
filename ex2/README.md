@@ -7,7 +7,9 @@ LINQ query variables are typed as `IEnumerable<T>` or a derived type such as `IQ
 
 If you prefer, you can avoid generic syntax by using the var keyword. The var keyword instructs the compiler to infer the type of a query variable by looking at the data source specified in the from clause. When you use IEnumerable<T> or var to declare LINQ query variables, compiled code are the same.
 ## Basic LINQ Query Operations (C#)
+ 
 (https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/basic-linq-query-operations)
+ 
  The `from` clause comes first in order to introduce the data source (`customers`) and the *range variable* (`cust`).
  
 The range variable is like the iteration variable in a `foreach` loop except that no actual iteration occurs in a query expression. When the query is executed, the range variable will serve as a reference to each successive element in `customers`. 
@@ -47,6 +49,11 @@ In the previous code example, note that the `OrderBy` method is invoked by using
 (https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/features-that-support-linq)
 
 Variables declared as `var` are just as strongly-typed as variables whose type you specify explicitly. The use of var makes it possible to create anonymous types, but it(indicate what?) can be used only for local variables. 
+
+## Walkthrough: Writing Queries in C# (LINQ)
+(https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/walkthrough-writing-queries-linq)
+
+The `var` keyword does not change the types of your objects; it just instructs the compiler to infer the types. 
 
 
 
