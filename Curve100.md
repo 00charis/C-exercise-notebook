@@ -1,8 +1,6 @@
 ## Syntax
 *expression*. ``Curve``(``Arg1``, ``Arg2``, ``Arg3``, ``Arg4``)
 
-## Example
-
 
 ## Parameters
 | Name      | Required/Optional           | Data type  | Description|
