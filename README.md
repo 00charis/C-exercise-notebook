@@ -4,4 +4,5 @@ References:
 
 Todo:
 1. Tutorial: Express your design intent more clearly with nullable and non-nullable reference types (https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/nullable-reference-types)
+2. Delegates and Event topic (https://github.com/dotnet/samples/tree/master/csharp/events)
 
